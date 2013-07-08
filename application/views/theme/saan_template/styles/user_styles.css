@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_container
+{
+	margin-left:150px;
+	margin-right:150px;
+	margin-top:30px;
+	width:auto;
+	height:auto;
+	
+}
+
+.user_menu_space
+{
+	height:9px;
+	width:100%;
+	margin-top:20px;
+}
+
+.user_menu_space a
+{
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:2px;
+	padding-bottom:10px;
+	color:#730302;
+	border:2px #730302 solid;
+	border-radius:12px;
+}
+
+.user_menu_space a:hover
+{
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#730302;
+	border:2px #730302 solid;
+	border-radius:12px;
+}
+
+.user_menu_space .user_current
+{
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#730302;
+	border:2px #730302 solid;
+	border-radius:12px;
+}
+
+.menu_table a:hover
+{
+	border-bottom:4px #FFFFFF solid;
+}
+
+.menu_table .submenu_current
+{
+	border-bottom:4px #FFFFFF solid;
+}
+
+
+
+.acc-style4 .acc-section {
+    /*background: url("../images/acc4-bg.png") repeat-x scroll 0 17px #F5F5F5; */
+    border: 1px solid #D6D6D6;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 3px #D6D6D6;
+    margin: 10px 0 0 0;
+	padding-left:10px;
+	margin-bottom:20px;
+	width:97%;
+	height:auto;
+}
+
+.acc-style4 .acc-section h3{
+    /*background: url("../images/acc4-bg.png") repeat-x scroll 0 17px #F5F5F5; */
+    border-bottom:1px #3399FF dotted;
+	width:auto;
+	margin-right:10px;
+}
+
+
+.acc-content
+{
+	height:auto;
+}
+
+.acc-style4 .acc-section  p{
+	text-align:justify;
+	margin-top:20px; 
+	margin-right:10px;
+}
+
+h4 a
+{
+	color:#666666;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.acc-section a
+{
+	color:#000000;
+}
+
+form .required {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+
+/** ****************************************************** Start: Table Style *********************************************** */
+
+.custom_table {
+	border: 1px solid #e3e3e3;
+	background-color: #f2f2f2;
+	border-radius: 6px;
+	margin-bottom:10px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+.custom_table td, .custom_table th {
+	padding: 5px;
+	color: #333;
+}
+.custom_table thead {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: .2em 0 .2em .5em;
+	text-align: left;
+	color: #4B4B4B;
+	background-color: #C8C8C8;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e3e3e3), color-stop(.6,#B3B3B3));
+	background-image: -moz-linear-gradient(top, #D6D6D6, #B0B0B0, #B3B3B3 90%);
+	border-bottom: solid 1px #999;
+}
+.custom_table th {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: white 1px 1px 1px;
+}
+.custom_table td {
+	line-height: 20px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+.custom_table td:hover {
+	background-color: #fff;
+}
+/** ************************************************** End: Table Style********************************************************************* */
+
