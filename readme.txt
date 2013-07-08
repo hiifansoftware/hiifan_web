@@ -1,7 +1,7 @@
 /**
  * SAAN FRAMEWORK
  *
- * @project: Core SAAN Framework (For HiiFan Web Portal)
+ * @project: Core SAAN Framework (For HiiFan)
  * @purpose: This is the read me file for the framework.
  *
  * @author: Saurabh Sinha
