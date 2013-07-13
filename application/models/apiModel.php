@@ -37,7 +37,7 @@ class apiModel extends SaanModel
             'user_reg_date' => time(),
             'user_active_code' => $userArray['active_code'],
             'user_card_number' => $userArray['user_card_number'],
-            'user_reg_from' => 'news',
+            'user_reg_from' => $userArray['reg_from'],
             'user_status' => 'active',
             'user_active_date' => time());
         return $this->db->query_insert('user_details', $dataArray);
