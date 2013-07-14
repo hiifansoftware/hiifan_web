@@ -49,4 +49,15 @@ class apiModel extends SaanModel
 
         return $this->db->query($query);
     }
+    
+    public function assignCardToUser($dataArray)
+    {
+        if(is_array($dataArray) && count($dataArray) > 0)
+        {
+            $insertArray = array('user_id' => $dataArray['user_id'],
+                                'user_card_number' => $dataArray['user_card_number'],
+                                'user_card_datetime' => $dataArray['user_card_datetime']);
+            return $this->db->query_insert('user_card_details', $insertArray);
+        }
+    }
 }
